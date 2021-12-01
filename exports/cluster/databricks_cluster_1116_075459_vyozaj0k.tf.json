@@ -5,8 +5,7 @@
                 "autotermination_minutes": 120,
                 "cluster_name": "train",
                 "depends_on": [
-                    "databricks_dbfs_file.databricks_dbfs_files",
-                    "databricks_global_init_script.databricks_global_init_scripts"
+                    "databricks_dbfs_file.databricks_dbfs_files"
                 ],
                 "driver_node_type_id": "${var.Standard_DS3_v2}",
                 "dynamic": [
